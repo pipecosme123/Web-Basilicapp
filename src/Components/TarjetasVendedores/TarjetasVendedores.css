@@ -1,0 +1,36 @@
+.o-imagenTarjeta{
+    width: 15rem;
+    height: auto;
+
+}
+
+
+.o-title{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.o-Tarjetas .o-Tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #dfdfdf;
+    border: 3px solid #909090;
+    border-radius: 1rem;
+    width: 22rem;
+    height: auto;
+}
+.o-Tarjetas .o-Tarjeta:hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #ffe08a;
+    border: 3px solid #909090;
+    border-radius: 1rem;
+    transform: scale(1.05,1.05);
+    position: relative;
+}

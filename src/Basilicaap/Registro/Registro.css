@@ -1,0 +1,22 @@
+.o-RegistroGeneral{
+
+  
+    background: whitesmoke;
+    border-radius: 2rem;
+    margin-top: 5rem;
+    width:32rem;
+}
+
+
+
+.o-Registro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+}
+.o-Rg{
+         display: flex;
+        justify-content: center;
+}

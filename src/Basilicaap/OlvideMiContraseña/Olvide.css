@@ -1,0 +1,25 @@
+.o-OlvideGeneral{
+
+  
+    background: whitesmoke;
+    border-radius: 2rem;
+    margin-top: 5rem;
+    width:32rem;
+}
+
+.o-areg{
+    margin-bottom: 1rem;
+}
+
+
+.o-Olvide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+}
+.o-Lg{
+         display: flex;
+        justify-content: center;
+}

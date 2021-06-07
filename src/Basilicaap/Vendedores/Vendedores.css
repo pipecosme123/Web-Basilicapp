@@ -1,0 +1,6 @@
+.o-ContainerTarjetas{
+display:flex;
+flex-direction: row;
+justify-content: center;
+}
+
