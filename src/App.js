@@ -7,6 +7,7 @@ import Registro from './Basilicaap/Registro/Registro'
 import AcercaDeNosotros from './Basilicaap/AcercaDeNosotros/AcercaDeNosotros'
 import Vendedores from './Basilicaap/Vendedores/Vendedores'
 import Inicio from './Basilicaap/Inicio/Inicio'
+import Carrito from './Basilicaap/Carrito/Carrito'
 
 import {  BrowserRouter,  Route,  useLocation,  withRouter,  Redirect}  from 'react-router-dom'
 
@@ -29,6 +30,7 @@ function App() {
         <Route exact path="/Registro" component={Registro}></Route>
         <Route exact path="/AcercaDeNosotros" component={AcercaDeNosotros}></Route>
         <Route exact path="/Vendedores" component={Vendedores}></Route>
+        <Route exact path="/Carrito" component={Carrito}></Route>
 
         {/* <Route exact path="/productos" component={Productos}></Route>
         <Route exact path="/Contactenos" component={Contactenos}></Route>
