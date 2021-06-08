@@ -1,0 +1,41 @@
+.sliders{
+    width: 500px;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slider{
+    display:flex;
+    justify-content: center;
+}
+
+#img1, #img2, #img3 {
+    width: 400px;
+    height: 400px;
+    padding: 1rem;
+    box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 20%);
+}
+
+.buttons{
+    display:flex;
+    justify-content: center;
+}
+
+.slider1, .slider2, .slider3{
+    padding: 1rem;
+    margin: 1rem 2rem;
+    border-radius: 100%;
+    border: 0; 
+}
+
+.slider1:hover, .slider2:hover, .slider3:hover {
+    padding: 1rem;
+    margin: 1rem 2rem;
+    border-radius: 100%;
+    border: 0; 
+    background: #ffae00;    
+    transform: scale(1.1);
+    transition: 0.3s;
+}
