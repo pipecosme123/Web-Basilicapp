@@ -7,9 +7,13 @@ import Registro from './Basilicaap/Registro/Registro'
 import AcercaDeNosotros from './Basilicaap/AcercaDeNosotros/AcercaDeNosotros'
 import Vendedores from './Basilicaap/Vendedores/Vendedores'
 import Inicio from './Basilicaap/Inicio/Inicio'
+import Descripcion from './Basilicaap/Descripcion/Descripcion'
+import Carrusel from './Components/Carousel/Carrusel'
+import Tienda from './Basilicaap/Tienda/Tienda'
+import Carrito from './Basilicaap/Carrito/Carrito'
 
 import {  BrowserRouter,  Route,  useLocation,  withRouter,  Redirect}  from 'react-router-dom'
-
+/** Hola mundo!!! */
 function _ScrollToTop(props) {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -29,6 +33,10 @@ function App() {
         <Route exact path="/Registro" component={Registro}></Route>
         <Route exact path="/AcercaDeNosotros" component={AcercaDeNosotros}></Route>
         <Route exact path="/Vendedores" component={Vendedores}></Route>
+        <Route extrt path="/Descripcion" component={Descripcion}></Route>
+        <Route extrt path="/Carrusel" component={Carrusel}></Route>
+        <Route extrt path="/Tienda" component={Tienda}></Route>
+        <Route extrt path="/Carrito" component={Carrito}></Route>
 
         {/* <Route exact path="/productos" component={Productos}></Route>
         <Route exact path="/Contactenos" component={Contactenos}></Route>
