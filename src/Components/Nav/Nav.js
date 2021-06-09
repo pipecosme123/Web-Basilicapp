@@ -14,8 +14,8 @@ const Nav = () => {
             <ul>
                 <li><Link to="./Inicio" >Inicio</Link>
                 </li>
-                <li><a href="../Tienda/tienda.html" >Tienda</a></li>
-                <li><a href="../preguntas/preguntas.html" >Preguntas</a></li>
+                <li><Link to="../Tienda/tienda.html" >Tienda</Link></li>
+                <li><Link to="../preguntas/preguntas.html" >Preguntas</Link></li>
                 <li><Link to="AcercaDeNosotros" >Sobre
                         nosotros</Link></li>
                 <li><Link to="./Vendedores" >Vendedores</Link></li>

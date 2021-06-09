@@ -1,0 +1,12 @@
+.BtnCarrito {
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 2rem;
+    display: flex;
+}

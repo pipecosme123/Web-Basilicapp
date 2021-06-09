@@ -1,0 +1,18 @@
+.o-imgUser{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 1%;
+}
+
+.o-user {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1%;
+}
+
+.o-preguntas{
+    margin-top: 10%;
+    margin-right: 3.5rem;
+}
