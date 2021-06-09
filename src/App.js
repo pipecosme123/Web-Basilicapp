@@ -10,6 +10,7 @@ import Inicio from './Basilicaap/Inicio/Inicio'
 import Descripcion from './Basilicaap/Descripcion/Descripcion'
 import Carrusel from './Components/Carousel/Carrusel'
 import Tienda from './Basilicaap/Tienda/Tienda'
+import Carrito from './Basilicaap/Carrito/Carrito'
 
 import {  BrowserRouter,  Route,  useLocation,  withRouter,  Redirect}  from 'react-router-dom'
 /** Hola mundo!!! */
@@ -35,6 +36,7 @@ function App() {
         <Route extrt path="/Descripcion" component={Descripcion}></Route>
         <Route extrt path="/Carrusel" component={Carrusel}></Route>
         <Route extrt path="/Tienda" component={Tienda}></Route>
+        <Route extrt path="/Carrito" component={Carrito}></Route>
 
         {/* <Route exact path="/productos" component={Productos}></Route>
         <Route exact path="/Contactenos" component={Contactenos}></Route>

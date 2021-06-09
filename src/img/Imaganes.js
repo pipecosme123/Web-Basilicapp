@@ -22,6 +22,26 @@ import imgCrucifijo1 from './imagenesProductos/crucifijo1.jpg';
 import imgCrucifijo2 from './imagenesProductos/crucifijo2.jpg';
 import imgCrucifijo3 from './imagenesProductos/crucifijo3.jpg';
 
+// Descripcion del producto "Veladora"
+import imgVeladora1 from './imagenesProductos/v1.jpg';
+import imgVeladora2 from './imagenesProductos/v2.jpg';
+import imgVeladora3 from './imagenesProductos/v3.jpg';
+
+// Descripcion del producto "Camandula"
+import img_Camandula1 from './imagenesProductos/cm1.jpg';
+import img_Camandula2 from './imagenesProductos/cm2.jpg';
+import img_Camandula3 from './imagenesProductos/cm3.jpg';
+
+// Descripcion del producto "CamandulaAzul"
+import imgCamandulaAzul1 from './imagenesProductos/collar_Elegante1.jpg';
+import imgCamandulaAzul2 from './imagenesProductos/collar_Elegante2.jpg';
+import imgCamandulaAzul3 from './imagenesProductos/collar_Elegante3.jpg';
+
+// Descripcion del producto "Holyart"
+import imgAngel_Paloma1 from './imagenesProductos/angel_Paloma1.jpg';
+import imgAngel_Paloma2 from './imagenesProductos/angel_Paloma2.jpg';
+import imgAngel_Paloma3 from './imagenesProductos/angel_Paloma3.jpg';
+
 export default {
     // Interface
     "fondoIglesia": Iglesia,
@@ -46,4 +66,29 @@ export default {
     "crucifijo1": imgCrucifijo1,
     "crucifijo2": imgCrucifijo2,
     "crucifijo3": imgCrucifijo3,
+
+    // Descripcion del producto "veladora"
+    "veladora1": imgVeladora1,
+    "veladora2": imgVeladora2,
+    "veladora3": imgVeladora3,
+
+    // Descripcion del producto "Camandula 2"
+    "camandula_1": img_Camandula1,
+    "camandula_2": img_Camandula2,
+    "camandula_3": img_Camandula3,
+
+     // Descripcion del producto "Camandula Azul"
+     "camandulaAzul1": imgCamandulaAzul1,
+     "camandulaAzul2": imgCamandulaAzul2,
+     "camandulaAzul3": imgCamandulaAzul3,
+
+     // Descripcion del producto "Camandula Azul"
+     "camandulaAzul1": imgCamandulaAzul1,
+     "camandulaAzul2": imgCamandulaAzul2,
+     "camandulaAzul3": imgCamandulaAzul3,
+
+     // Descripcion del producto "Holyart"
+    "angel_Paloma1": imgAngel_Paloma1,
+    "angel_Paloma2": imgAngel_Paloma2,
+    "angel_Paloma3": imgAngel_Paloma3,
 }

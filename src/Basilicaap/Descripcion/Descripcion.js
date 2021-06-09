@@ -33,8 +33,8 @@ const Descripcion = () => {
                         <p>Cantidad</p>
                     </div>
                     <div className={style.botones}>
-                        <Btn1 texto="Comprar"></Btn1>
-                        <Btn1 texto="Añadir a la cesta"></Btn1>
+                        <a className={style.btn} href="/Carrito">Comprar</a>
+                        <a className={style.btn} href="/Carrito">Añadir a la cesta</a>
                     </div>
                 </div>
             </div>

@@ -47,46 +47,46 @@ export const Productos = [
     },
     {
         "id": i_d++,
-        "nombre": "Virgen de luz" + i_d,
-        "tienda": "BASILICA" + i_d,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ratione praesentium mollitia, nostrum facere totam facilis cum laboriosam perferendis obcaecati temporibus esse sequi cumque atque accusantium numquam voluptas rerum aliquam vitae! Ab quaerat maiores nulla! Dolor maxime, laborum molestiae labore eius deleniti obcaecati impedit minus voluptatem aperiam, atque harum enim.",
-        "precio": "48,324.32",
-        "img1": `${Images.producto11}`,
-        "img2": `${Images.producto12}`,
-        "img3": `${Images.producto13}`
+        "nombre": "Veladoras",
+        "tienda": "Luz Veladoras",
+        "descripcion": "Veladora para alumbrar tus santos, imagen religiosa estampada y bendecida en la basílica de Buga",
+        "precio": "12.000,00",
+        "img1": `${Images.veladora1}`,
+        "img2": `${Images.veladora2}`,
+        "img3": `${Images.veladora3}`
 
     },
     {
         "id": i_d++,
-        "nombre": "Virgen de luz" + i_d,
-        "tienda": "BASILICA" + i_d,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ratione praesentium mollitia, nostrum facere totam facilis cum laboriosam perferendis obcaecati temporibus esse sequi cumque atque accusantium numquam voluptas rerum aliquam vitae! Ab quaerat maiores nulla! Dolor maxime, laborum molestiae labore eius deleniti obcaecati impedit minus voluptatem aperiam, atque harum enim.",
+        "nombre": "Camandula de madera",
+        "tienda": "Cristo",
+        "descripcion": "Camándula de madera perfecta para realizar rosarios, es de material resistente y bendecida con agua bendita de la basílica de Buga",
         "precio": "48,324.32",
-        "img1": `${Images.producto11}`,
-        "img2": `${Images.producto12}`,
-        "img3": `${Images.producto13}`
+        "img1": `${Images.camandula_1}`,
+        "img2": `${Images.camandula_2}`,
+        "img3": `${Images.camandula_3}`
 
     },
     {
         "id": i_d++,
-        "nombre": "Virgen de luz" + i_d,
-        "tienda": "BASILICA" + i_d,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ratione praesentium mollitia, nostrum facere totam facilis cum laboriosam perferendis obcaecati temporibus esse sequi cumque atque accusantium numquam voluptas rerum aliquam vitae! Ab quaerat maiores nulla! Dolor maxime, laborum molestiae labore eius deleniti obcaecati impedit minus voluptatem aperiam, atque harum enim.",
-        "precio": "48,324.32",
-        "img1": `${Images.producto11}`,
-        "img2": `${Images.producto12}`,
-        "img3": `${Images.producto13}`
+        "nombre": "Ángel con paloma Fontanini 12 cm",
+        "tienda": "BASILICA",
+        "descripcion": "Estatua Fontanini del ángel con paloma de 12 cm de resina pintada a mano realizada completamente en Italia.",
+        "precio": "12.000,00",
+        "img1": `${Images.angel_Paloma1}`,
+        "img2": `${Images.angel_Paloma2}`,
+        "img3": `${Images.angel_Paloma3}`
 
     },
     {
         "id": i_d++,
-        "nombre": "Virgen de luz" + i_d,
-        "tienda": "BASILICA" + i_d,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ratione praesentium mollitia, nostrum facere totam facilis cum laboriosam perferendis obcaecati temporibus esse sequi cumque atque accusantium numquam voluptas rerum aliquam vitae! Ab quaerat maiores nulla! Dolor maxime, laborum molestiae labore eius deleniti obcaecati impedit minus voluptatem aperiam, atque harum enim.",
-        "precio": "48,324.32",
-        "img1": `${Images.producto11}`,
-        "img2": `${Images.producto12}`,
-        "img3": `${Images.producto13}`
+        "nombre": "Collar Cruz San Benito azul elegante",
+        "tienda": "BASILICA",
+        "descripcion": "Cruz de San Benito elegante de latón esmaltado color azul con lazo. El cuerpo de Jesús, que está clavado en la cruz (pegado en la versión pequeña), y la medalla de San Benito de latón son bañados en plata.",
+        "precio": "60.000,00",
+        "img1": `${Images.camandulaAzul1}`,
+        "img2": `${Images.camandulaAzul2}`,
+        "img3": `${Images.camandulaAzul3}`
 
     },
 ];

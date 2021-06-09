@@ -1,6 +1,6 @@
 import React, {Component, useState} from 'react';
 // import { Carousel } from 'react-bootstrap';
-import style from './Carrusel.module.css';
+import './Carrusel.css';
 import {Productos} from '../../Productos';
 
 class Carrusel extends Component  {
@@ -44,8 +44,8 @@ render() {
 
   const data = Productos[id];
   return (
-    <div className={style.sliders}>
-      <div className={style.slider}>
+    <div className="sliders">
+      <div className="slider">
         <div>
           {
             this.state.showMe1?
@@ -68,10 +68,10 @@ render() {
           }
         </div>
       </div>
-      <div className ={style.buttons} id="buttons">
-        <button className={style.slider1} onClick={() => this.sliderOM1()}>1</button>
-        <button className={style.slider2} onClick={() => this.sliderOM2()}>2</button>
-        <button className={style.slider3} onClick={() => this.sliderOM3()}>3</button>
+      <div className ="buttons" id="buttons">
+        <button className="slider1" onClick={() => this.sliderOM1()}>1</button>
+        <button className="slider2" onClick={() => this.sliderOM2()}>2</button>
+        <button className="slider3" onClick={() => this.sliderOM3()}>3</button>
       </div>
     </div>
   );
